@@ -1,0 +1,74 @@
+.detail-header{
+    position: relative;
+    width: 100%;
+    height: 219px;
+    color: #FFF;
+}
+
+.detail-img{
+    width: 100%;
+    height: 219px;
+}
+
+.detail-title{
+    position: absolute;
+    bottom: 36px;
+    left: 8px;
+    font-size: 16px;
+}
+
+.detail-source {
+    position: absolute;
+    bottom: 8px;
+    font-size: 14px;
+    right: 8px;   
+}
+
+.detail-content{
+    font-size: 14px;
+    color: #616466;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    background-color: #FFF;
+    line-height: 1.5;
+}
+
+.detail-bottom{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  flex-direction: row;
+  font-size: 14px;
+  width: 100%;
+  color: #ffffff;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: #00a2ea;
+  opacity: 0.5;
+  position: fixed;
+  justify-content: space-between;
+  bottom: 0px
+}
+
+.detail-long-comments{
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail-short-comments{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.detail-popularity{
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.detail-comments-img{
+  width: 30px;
+  height: 30px;
+}

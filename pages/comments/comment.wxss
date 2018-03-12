@@ -1,0 +1,17 @@
+.comment-header{
+  width: 100%;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.comment-dialog{
+  width: 60%;
+  display: flex;
+  align-content: center;
+  background-color: #FFF;
+  overflow: hidden;
+  position: fixed;
+  top: 30%;
+  z-index: 9999;
+  margin-bottom: 20px;
+}

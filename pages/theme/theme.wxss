@@ -1,0 +1,25 @@
+.theme-card {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #FFF; 
+}
+.them-image{
+    width: 100%;
+    height: 168px;
+}
+
+.theme-content{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+}
+
+.theme-title{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.theme-desc {
+    font-size: 14px;
+}

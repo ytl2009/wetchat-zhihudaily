@@ -1,0 +1,29 @@
+<!--detail.wxml-->
+<import src="../../wxParse/wxParse.wxml"/>
+<view class="container">
+    <view class="detail-header">
+        <image src="{{art.image}}" mode="widthFix"class="detail-img"/>
+        <view class="detail-title">{{art.title}}</view>
+        <view class="detail-source">{{art.image_source}}</view>
+    </view>
+    <scroll-view scroll-y="true" style="flexed:1">
+    <view class="detail-content">
+      <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+      <!-- {{art.body}} -->
+    </view>
+    </scroll-view>
+    <view class="detail-bottom">
+      <view class="detail-short-comments">
+        <image src="../../images/icon_short_comments.png" class="detail-comments-img" bindtap="navigatorToShortComments"/>
+         <text>{{comments.short_comments}}</text> 
+      </view>
+      <view class="detail-long-comments">
+        <image src="../../images/icon_long_comments.png" class="detail-comments-img" bindtap="navigatorToLongComments"/>
+         <text>{{comments.long_comments}}</text> 
+      </view>
+      <view class="detail-popularity">
+        <image src="../../images/icon_popularity.png" class="detail-comments-img"/>
+        <text>{{comments.popularity}}</text>
+      </view>
+    </view> 
+</view>

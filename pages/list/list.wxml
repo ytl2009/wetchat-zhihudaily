@@ -1,0 +1,15 @@
+<!--list.wxml-->
+<view class="container">
+  <view class="list-news-item-container">
+    <navigator url="../themedetail/theme_detail?id={{item.id}}" wx:for="{{list}}" wx:key="id">
+        <view class="list-news-item" >
+          <view class="list-news-item-left">
+            <image src="{{item.images[0]==null?'../../images/icon_empty.png':item.images[0]}}" class="list-news-image"/>
+          </view>
+          <view class="list-news-item-right">
+            <text class="list-new-item-title">{{item.title}}</text>
+          </view>
+        </view>
+    </navigator>
+  </view>
+</view>

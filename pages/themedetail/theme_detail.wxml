@@ -1,0 +1,12 @@
+
+<import src="../../wxParse/wxParse.wxml"/>
+<view class='container'>
+  <view class='theme-header' hidden='{{themedetail.images==null?true:false}}'>
+    <image src='{{themedetail.images}}' class='theme-img'/>
+    <view class='theme-title'>{{themedetail.title}}</view>
+    <view class='theme-source'>{{themedetail.image_source}}</view>
+  </view>
+  <view class='theme-content'>
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+<!--theme.wxml-->
+<view class="container">
+    <navigator class="theme-card" url="../list/list?id={{item.id}}&title={{item.name}}"  wx:for="{{list}}" wx:key="id">
+        <image src="{{item.thumbnail}}" class="theme-image"></image>
+        <view class="theme-content">
+            <view>
+                <text class="theme-title">{{item.name}}</text>
+            </view>
+            <view>
+                <text class="theme-desc">{{item.description}}</text>
+            </view>
+        </view>
+    </navigator>
+</view>
