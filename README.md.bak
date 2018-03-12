@@ -1,11 +1,11 @@
 # 微信小程序-知乎日报
 
 * 模拟知乎日报的首页
-* 
+* 实现知乎日报的基本功能
 
 ## 预览
 
-![](images/main_demo.png)
+![](images/main_demo.png,main_demo1.png)
 
 ## 使用
 

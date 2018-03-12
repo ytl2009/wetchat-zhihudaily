@@ -5,7 +5,7 @@
 
 ## 预览
 
-![](images/main_demo.png,main_demo1.png)
+![](images/main_demo.png,images/main_demo1.png)
 
 ## 使用
 
