@@ -5,10 +5,10 @@
 
 ## 预览
 
-*主页首页
+* 主页首页
 ![](images/main_demo.png)
 
-*主题页面首页
+* 主题页面首页
 ![](images/main_demo1.png)
 
 ## 使用
